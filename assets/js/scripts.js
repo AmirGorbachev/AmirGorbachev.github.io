@@ -1,4 +1,3 @@
-$(".block-anim").fadeIn(1000);
 $(document).ready(function(){
 	    $(".scrollScript").on("click","a", function (event) {
 	        event.preventDefault();
