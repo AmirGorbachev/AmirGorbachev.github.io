@@ -99,6 +99,15 @@ menu {
 	float: left;
 	font-size: 20px;
 	text-transform: uppercase;
+	transition-duration: .3s;
+	padding: 10px;
+}
+
+.logo:hover {
+	transform: translateY(3px);
+	color: black;
+	background: #FFF;
+	border-radius: 5%;
 }
 
 .pre-header {
@@ -140,6 +149,9 @@ footer {
 
 .pad-top-soc {
 	padding-top: 25px;
+	border-top: 1px solid white;
+	margin: auto;
+	width: 50%;
 }
 
 .social {
@@ -307,22 +319,6 @@ footer {
 	padding-right: 25px;
 	color: white;
 	font-size: 20px;
-}
-
-.separation1 {
-	color: white;
-	margin-left: 25%;
-	width: 50%;	
-	height: 2px;
-	background-color: white;
-}
-
-.separation {
-	color: white;
-	margin-left: 10%;
-	width: 80%;	
-	height: 1px;
-	background-color: white;
 }
 
 .lower-block {
