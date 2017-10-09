@@ -6,6 +6,7 @@ $(document).ready(function(){
 	        $('body,html').animate({scrollTop: top}, 750);
 	    });
 	});
+<<<<<<< HEAD
 $(document).ready(function(){
     $("#form").submit(function() { //устанавливаем событие отправки для формы с id=form
             var form_data = $(this).serialize(); //собераем все данные из формы
@@ -19,5 +20,8 @@ $(document).ready(function(){
             });
     });
 });
+=======
+
+>>>>>>> parent of 2877b83... JSforMail
 
 
