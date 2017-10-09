@@ -21,12 +21,6 @@
 body {
 	background-color: white;
 	font-family: 'Comic Sans MS','Lora', 'Times New Roman', serif;
-	min-width: 1000px;
-}
-
-pre {
-	font-family: 'Comic Sans MS','Lora', 'Times New Roman', serif;
-	font-size: 20px;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -38,11 +32,10 @@ h1,h2,h3,h4,h5,h6 {
 
 .home {
 	background: url(../images/home.jpg) no-repeat fixed;
-    height: 1500px;
+    height: 100%;
     width: 100%;
     background-size: cover;
     padding-top:40px;
-    position: relative;
 }
 
 menu {
@@ -53,7 +46,7 @@ menu {
 
 .menu {
 	text-decoration: none;
-	color: #FFF;
+	color: black;
 	transition-duration: .2s;
 	font-size: 13px;
 }
@@ -70,50 +63,47 @@ menu {
 	transition-duration: .3s;
 }
 
-.widget-social li a {
-	padding: 10px;
-	margin: 0 10px 0 10px ;
-}
-
 .nav {
 	float: right;
+	background: white;
+	border-radius: 5px;
+	padding: 10px;
 }
 
 .menu-nav {
 	transition-duration: .3s;
-}
-
-.menu-nav:hover {
-	transform: translateY(3px);
+	height: 20px;
+	padding-top: 4px;
 }
 
 .menu-nav:hover .menu {
-	color: black;
-	background: #FFF;
-	border-radius: 5%;
+	color: white;
+	background: #1A1A1A;
+	border-radius: 5px;
 }
 
 .logo {
 	text-decoration: none;
-	color: white;
+	background: white;
+	border-radius: 5px;
+	color: black;
 	float: left;
 	font-size: 20px;
 	text-transform: uppercase;
 	transition-duration: .3s;
 	padding: 10px;
+	height: 25px;
 }
 
 .logo:hover {
-	transform: translateY(3px);
-	color: black;
-	background: #FFF;
-	border-radius: 5%;
+	color: white;
+	background: #1A1A1A;
 }
 
 .pre-header {
 	color: #FFF;
 	text-align: center;
-	padding-top: 200px;
+	padding-top: 30vh;
 }
 
 .name-header {
@@ -133,25 +123,32 @@ main {
 
 footer {
 	height: 200px;
-	border-top: grey 1px solid;
 	background: #1A1A1A;
 	width: 100%;
-	position: relative;
 }
 
 .widget-social{
 	text-align: center;
 }
 
+
 .pad-bod-soc {
 	padding-top: 50px;
 }
 
+.block-padding-for-social {
+	float: left;
+	width: 50px;	
+	height: 1px;
+}
+
 .pad-top-soc {
-	padding-top: 25px;
-	border-top: 1px solid white;
-	margin: auto;
-	width: 50%;
+	height: 39px;
+	width: 300px;
+	float: left;
+	background: white;
+	border-radius: 5px;
+	padding: 3px;
 }
 
 .social {
@@ -169,6 +166,11 @@ footer {
 	position: relative;
 }
 
+.social-top {
+	padding: 5px;
+	color: black;
+	border: white 1px solid;
+}
 	.YouTube:hover {
 		border: #FF0000 1px solid;
 		background: #FF0000;
@@ -235,7 +237,7 @@ footer {
 }
 
 .copya:hover {
-	color: #DC446E;
+	color: #FF9800;
 }
 
 .inline {
@@ -245,12 +247,12 @@ footer {
 #about {
 	background-color: #e4e4e4;
 	width: 100%;
-	height: 800px;
-	position: relative;
+	min-height: 400px;
+	padding-bottom: 55px;
 }
 
 .about-header {
-	padding-top: 20px;
+	padding-top: 35px;
 	color: #333;
 	text-align: center;
 	font-size: 35px;
@@ -266,130 +268,28 @@ footer {
 	font-size: 20px;
 }
 
-.about-list {
-	margin-top: 25px;
-	padding-left: 10%;
-	padding-right: 10%;
-}
-
-.abot-block{
-	float: left;
-	height: 320px;
-	width: 32%;
-	transition-duration: .3s;
-}
-
-.one {
-}
-
-.two,
-.three {
-	margin-left: 2%;
-}
-
-/*.one:hover,
-.two:hover,
-.three:hover {
-	transform: translateY(-5px);
-}
-*/
-.upper {
-	height: 100%;
-	background: #1A1A1A;
-}
-
-.about-icon {
-	font-size: 65px;
-	width: 100%;
-	color: white;
-	text-align: center;
-	padding-top: 10px;
-}
-
-.upper-text {
-	padding-top: 5px;
-	text-align: center;
-	font-size: 25px;
-	color: white;
-}
-
-.lower-text {
-	padding: 15px;
-	padding-left: 35px;
-	padding-right: 25px;
-	color: white;
-	font-size: 20px;
-}
-
-.lower-block {
-	background: #191919;
-	margin-top: 15px;
-	margin-left: 10%;
-	margin-right: 10%;
-	padding: 25px;
-	color: white;
-	font-size: 20px;
-	line-height: 25px;
-	height: 190px;
-}
-
-.lower-block-content{
-
-}
-
-.go-down {
-	text-decoration: none;
-	color: black;
-	transition-duration: .2s;
-	font-size: 25px;
-	background: white;
-	border: white 8px solid;
-	width: 25px;
-	height: 25px;
-	border-radius: 100%;
-	opacity: .4;
-	text-align: center;
-	display: block;
-	margin: auto;
-	margin-top: 20px;
-}
-
-.go-down:hover {
-	border: white 8px solid;
-	opacity: 1;
-}
-
-.block-padding {
-	height: 190px;
-}
-
 #toppage {
-	height: 800px;
+	height: 100vh;
 }
 
 #projects {
-	padding-top: 25px;
 	background-color: #1A1A1A;
 	width: 100%;
-	height: 800px;
-	position: relative;
+	min-height: 100px;
 }
 
 #contacts {
-	padding-top: 25px;
 	background-color: #F5F5F5;
 	width: 100%;
 	min-height: 550px;
-	position: relative;
 	padding-bottom: 25px;
 }
 
 .projects-header {
 	color: white;
-	padding-top: 10px;
+	padding-top: 35px;
 	text-align: center;
 	font-size: 35px;
-	position: static;
 	font-weight: 600;
 	text-transform: uppercase;
 }
@@ -398,6 +298,72 @@ footer {
 	text-align: center;
 	padding-top: 300px;
 }
+
+/* Лист проектов */
+
+.project-list {
+	min-height: 200px;
+	width: 90%;
+	margin-left: 5%;
+}
+
+.project-pre {
+	width: 32%;
+	float: left;
+	margin-right: 1%;
+	margin-top: 35px;
+	margin-bottom: 35px;
+	position: relative;
+	border: 2px solid #1A1A1A;
+	transition-duration: .3s;
+	box-shadow: 4px #FF9800;
+} .project-pre:last-child {
+	margin-right: 0;
+	} .project-pre:hover {
+		border: 2px solid #FF9800;
+	}
+
+.project-pre a {
+	background: black;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	text-decoration: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition-duration: .3s;
+}
+
+.project-pre:hover a {
+	opacity: .9;
+}
+
+.project-pre a p{
+	padding: 25px;
+	text-align: center;
+	color: white;
+	font-size: 25px;
+}
+
+.project-img {
+	height: 100%;
+	width: 100%;
+}
+
+/* !Лист проектов */
+
+/* Фото-бар */
+	
+.photo-bar {
+	background: url(../images/photo-bar.jpg) no-repeat fixed;
+    height: 25vh;
+    width: 100%;
+    background-size: cover;
+    padding-top:40px;
+}
+
+/* !Фото-бар */
 
 .e-mail {
 	padding: 15px;
@@ -427,11 +393,9 @@ footer {
 	padding-right: 25px;
 	font-size: 14px;
 	resize: vertical;
-}
-
-.padd {
 	padding-top: 15px; 
 }
+
 
 .form-but {
 	margin-left: 25px;
@@ -444,7 +408,7 @@ footer {
 
 .contacts-header {
 	color: #333;
-	padding-top: 10px;
+	padding-top: 35px;
 	text-align: center;
 	font-size: 35px;
 	position: static;
@@ -480,27 +444,6 @@ footer {
 	padding: 15px;
 	font-size: 20px;
 	padding-top: 35px;
-}
-
-.relation {
-	margin-right: 30%;
-	margin-left: 30%;
-	width: 40%;
-	margin-top: 35px;
-	position: relative;
-}
-
-.relation-ration {
-	padding-top: 56.25%;
-	height: 0;
-}
-
-.relation-content {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	top: 0;
-	left: 0;
 }
 
 /*Навигация обо мне*/
@@ -565,9 +508,6 @@ footer {
   }
 }
 
-/**
- * Tab
- */
 .c-tab {
   display: none;
   background-color: #1A1A1A;
@@ -583,27 +523,16 @@ footer {
   padding: 45px;
 }
 
-/**
- * Tabs no-js fallback
- */
-.c-tabs.no-js .c-tabs-nav {
-  display: none;
-}
-
-.c-tabs.no-js .c-tab {
-  display: block;
-  margin-bottom: 1.5rem;
-}
-
-.c-tabs.no-js .c-tab:last-child {
-  margin-bottom: 0;
-}
-
 a:-webkit-any-link {
 	text-decoration: none !important;
 }
 
-/*.Навигация обо мне*/
+.c-tab__content p {
+	font-size: 22px;
+	line-height: 1.5;
+}
+
+/* !Навигация обо мне*/
 
 .block-menu {
 	padding-top: 30px;
@@ -612,47 +541,52 @@ a:-webkit-any-link {
 	margin: auto;
 }
 
-.c-tab__content p {
-	font-size: 22px;
-	line-height: 1.5;
+/* Для проектов */ 
+
+.toppage-project {
+	height: 60vh;
 }
 
-.left-menu-nav {
-	font-size: 10px;
-	float: right;
-	position: fixed;
-	right: 1%;
-	border: 2px solid black;
-	border-radius: 5%;
-	z-index: 5;
-	margin-left: 300px;
-	margin-top: 45vh;
-	background: white;
-	opacity: .8;
-	transition-duration: .3s;
+.home-project {
+	background: url(../images/home.jpg) no-repeat fixed;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    padding-top:40px;
 }
 
-.left-menu-nav a {
-	display: block;
-	padding: 5px;
+.pre-header-project {
 	color: black;
-	transition-duration: .3s;
+	text-align: center;
+	padding-top: 10vh;
+	padding-bottom: 10vh;
 }
 
-.left-menu-nav a:hover {
-	background: #ccc;
+.name-header-project {
+	font-size: 45px;
+	position: static;
+	background: #FFF;
+	border-radius: 5px;
+	padding: 15px;
+	padding-bottom: 25px;
 }
 
-.left-menu-nav p {
-	font-family: 'Comic Sans MS',sans-serif;
-	text-transform: uppercase;
-	transition-duration: .3s;
-	padding-left: 5px;
-	display: inline;
-	font-size: 11px;
-	font-weight: bold;
+.content {
+	width: 100%;
+	min-height: 800px;
+	background: #E4E4E4;
 }
 
-.left-menu-nav:hover {
-	opacity: 1;
+.content-in-section1 {
+	padding: 45px 10%;
+	font-size: 25px;
 }
+
+.content-text {
+}
+
+.content-img {
+	width: 40%;
+}
+
+/* !Для проектов */ 
