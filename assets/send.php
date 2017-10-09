@@ -1,9 +1,3 @@
-<form id="form">
-    <input type="text" Name="Name" required="required"/>
-    <input type="text" Name="Contacts" required="required"/>
-    <input type="submit" value="Заказать звонок"/>
-</form>
-
 <?
 if((isset($_POST['Name'])&&$_POST['Name']!="")&&(isset($_POST['Contacts'])&&$_POST['Contacts']!="")&&(isset($_POST['Subject'])&&$_POST['Subject']!="")&&(isset($_POST['Text'])&&$_POST['Text']!="")){ //Проверка отправилось ли наше поля Name и не пустые ли они
         $to = 'amir.gorbachyow@yandex.ru'; //Почта получателя, через запятую можно указать сколько угодно адресов
