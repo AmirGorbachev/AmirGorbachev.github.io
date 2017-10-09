@@ -65,8 +65,6 @@ menu {
 
 .nav {
 	text-align: center;
-	width: 30%;
-	min-width: 320px;
 	float: right;
 	background: white;
 	border-radius: 5px;
@@ -149,7 +147,6 @@ footer {
 
 .pad-top-soc {
 	height: 39px;
-	width: 25%;
 	min-width: 200px;
 	float: left;
 	background: white;
