@@ -537,6 +537,22 @@ a:-webkit-any-link {
 	line-height: 1.5;
 }
 
+/**
+ * Tabs no-js fallback
+ */
+.c-tabs.no-js .c-tabs-nav {
+  display: none;
+}
+
+.c-tabs.no-js .c-tab {
+  display: block;
+  margin-bottom: 1.5rem;
+}
+
+.c-tabs.no-js .c-tab:last-child {
+  margin-bottom: 0;
+}
+
 /* !Навигация обо мне*/
 
 .block-menu {
