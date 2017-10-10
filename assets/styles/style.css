@@ -379,47 +379,6 @@ footer {
 
 /* !Фото-бар */
 
-.e-mail {
-	padding: 15px;
-	font-size: 20px;
-	padding-top: 35px;
-}
-
-.form-text {
-	margin-left: 15px;
-	margin-bottom: 15px;
-	border: 1px #ccc solid;
-	border-radius: 3px;
-	height: 40px;
-	width: 80%;
-	padding-left: 25px;
-	padding-right: 25px;
-	font-size: 14px;
-}
-
-.form-textarea {
-	margin-left: 15px;
-	margin-bottom: 15px;
-	border: 1px #ccc solid;
-	border-radius: 3px;
-	width: 80%;
-	padding-left: 25px;
-	padding-right: 25px;
-	font-size: 14px;
-	resize: vertical;
-	padding-top: 15px; 
-}
-
-
-.form-but {
-	margin-left: 25px;
-	border: 1px #ccc solid;
-	border-radius: 3px;
-	height: 40px;
-	width: 40%;
-	font-size: 14px;
-}
-
 .contacts-header {
 	color: #333;
 	padding-top: 35px;
@@ -437,27 +396,13 @@ footer {
 	font-size: 20px;
 }
 
-.contacts-2 {
+.contact-list {
+	padding-top: 25px;
 	width: 70%;
 	margin-right: 15%;
 	margin-left: 15%;
-}
-
-.contacts-left {
-	float: left;
-	width: 60%;
-}
-
-.contacts-right {
-	float: right;
-	width: 40%;
-	line-height: 30px;
-}
-
-.contacts-right-content {
-	padding: 15px;
 	font-size: 20px;
-	padding-top: 35px;
+	line-height: 1.6;
 }
 
 /*Навигация обо мне*/
