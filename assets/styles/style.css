@@ -505,6 +505,7 @@ footer {
 }
 
 .wrapper-about h4 {
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	background: #545454;
 	padding: 15px;
 	color: white;
