@@ -134,17 +134,13 @@ main {
 }
 
 footer {
-	height: 200px;
+	min-height: 100px;
 	background: #1A1A1A;
 	width: 100%;
 }
 
 .widget-social{
 	text-align: center;
-}
-
-.pad-bod-soc {
-	padding-top: 50px;
 }
 
 .block-padding-for-social {
