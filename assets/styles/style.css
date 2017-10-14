@@ -270,7 +270,8 @@ footer {
 	text-transform: uppercase;
 }
 
-.about-info {
+.about-info,
+.project-info {
 	text-align: center;
 	padding-top: 15px;
 	font-size: 20px;
@@ -305,6 +306,10 @@ footer {
 	font-size: 35px;
 	font-weight: 600;
 	text-transform: uppercase;
+}
+
+.project-info {
+	color: #ABABAC;
 }
 
 .projects-down {
