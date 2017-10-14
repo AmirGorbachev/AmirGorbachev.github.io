@@ -16,6 +16,7 @@
 *{
     margin:0;
     padding:0;
+    box-sizing: content-box;
 }
 
 body {
@@ -485,7 +486,6 @@ footer {
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 35px;
 	float: left;
-	width: 50%;
 }
 
 .header-list-about p {
@@ -503,11 +503,11 @@ footer {
 	float: left;
 }
 
-.wrapper-left p {
+.wrapper-left .about-p-wrap {
 	margin-left: 15px;
 }
 
-.wrapper-right p {
+.wrapper-right .about-p-wrap {
 	margin-right: 15px;
 }
 
@@ -536,9 +536,19 @@ footer {
 	font-weight: 400;
 }
 
-.wrapper-about p {
+.about-p-wrap,
+.header-list-about p {
 	padding: 25px;
+}
+
+.wrapper-about p {
 	line-height: 1.6;
+}
+
+.about-p-wrap ul {
+	line-height: 1.6;
+	padding-top: 10px;
+	padding-left: 25px;
 }
 
 .wrapper-about p:last-child {
@@ -550,7 +560,7 @@ footer {
 }
 
 .header-list-about,
-.wrapper-about p {
+.about-p-wrap {
 	background: #F4F4F5;
 }
 /* !About */ 
