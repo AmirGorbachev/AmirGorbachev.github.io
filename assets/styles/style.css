@@ -24,7 +24,6 @@ body {
 }
 
 h1,h2,h3,h4,h5,h6 {
-  	font-weight: 800;
   	font-family: 'Comic Sans MS', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; 
   	padding: 0;
   	margin: 0;
@@ -254,7 +253,7 @@ footer {
 }
 
 #about {
-	background-color: #e4e4e4;
+	background-color: #F4F4F5;
 	width: 100%;
 	min-height: 400px;
 	padding-bottom: 55px;
@@ -271,10 +270,14 @@ footer {
 }
 
 .about-info {
-	color: #858585;
 	text-align: center;
 	padding-top: 15px;
 	font-size: 20px;
+}
+
+.about-info a {
+	text-decoration: none;
+	color: #333;
 }
 
 #toppage {
@@ -288,7 +291,7 @@ footer {
 }
 
 #contacts {
-	background-color: #F5F5F5;
+	background-color: #F4F4F5;
 	width: 100%;
 	min-height: 550px;
 	padding-bottom: 25px;
@@ -464,6 +467,30 @@ footer {
 	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	width: 80%;
 	margin: auto;
+	background: white;
+	padding-top: 15px;
+	margin-top: 15px;
+	border-radius: 10px;
+}
+
+.header-list-about {
+	padding: 15px;
+	margin: 15px;
+	border-radius: 10px;
+}
+
+.header-list-about h2 {
+	padding: 15px;
+	font-weight: 400;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 35px;
+	float: left;
+	width: 50%;
+}
+
+.header-list-about p {
+	font-size: 18px;
+	float: right;
 }
 
 .wrapper-left {
@@ -504,15 +531,14 @@ footer {
 	background: #545454;
 	padding: 15px;
 	color: white;
-	font-weight: 300;
 	text-transform: uppercase;
 	font-size: 20px;
+	font-weight: 400;
 }
 
 .wrapper-about p {
 	padding: 25px;
 	line-height: 1.6;
-	background: white;
 }
 
 .wrapper-about p:last-child {
@@ -523,4 +549,8 @@ footer {
 	float: right;
 }
 
+.header-list-about,
+.wrapper-about p {
+	background: #F4F4F5;
+}
 /* !About */ 
