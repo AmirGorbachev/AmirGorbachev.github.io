@@ -17,6 +17,7 @@
     margin:0;
     padding:0;
     box-sizing: content-box;
+    word-wrap: break-word;
 }
 
 body {
@@ -47,8 +48,8 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 menu {
-	margin-right: 15%;
 	margin-left: 15%;
+	width: 70%;
 	padding-top: 25px;
 }
 
@@ -98,11 +99,9 @@ menu {
 	color: black;
 	float: left;
 	font-size: 20px;
-	text-transform: uppercase;
 	transition-duration: .3s;
 	padding: 10px;
 	height: 25px;
-	width: 7%;
 	min-width: 70px;
 	text-align: center;
 }
@@ -143,13 +142,8 @@ footer {
 	text-align: center;
 }
 
-.block-padding-for-social {
-	float: left;
-	width: 7%;	
-	height: 1px;
-}
-
 .pad-top-soc {
+	margin-left: 50px;
 	height: 39px;
 	min-width: 200px;
 	float: left;
@@ -284,6 +278,7 @@ footer {
 
 #toppage {
 	height: 100vh;
+	min-height: 500px;
 }
 
 #projects {
@@ -566,7 +561,7 @@ footer {
 }
 
 .wrapper-about i {
-	float: right;
+	float: none;
 }
 
 .header-list-about,

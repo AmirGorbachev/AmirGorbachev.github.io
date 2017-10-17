@@ -1,0 +1,103 @@
+/* Media queries */
+@media screen and (max-width: 1050px) {
+    .nav {
+        margin-top: 15px;
+        width: 100%;
+    }
+    .pad-top-soc {
+        float: right;
+        margin-left: 0;
+    }
+    .wrapper-left {
+        width: 100%;
+
+    }
+    .wrapper-right {
+    width: 100%;
+    }
+    .wrapper-left h4,
+    .wrapper-right h4 {
+        border-radius: 10px;
+    }
+    .wrapper-left .about-p-wrap,
+    .wrapper-right .about-p-wrap {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    .main-about {
+        padding-bottom: 0;  
+    }
+    .aside-about {
+        padding-top: 0;
+    }
+}
+ 
+@media screen and (max-width: 870px) {
+    .header-list-about {
+        text-align: center;
+    }
+    .header-list-about p {
+        width: 100%;
+        margin-right: 50%;
+        transform: translate(50%, 0);
+    }
+    .photo-and-name {
+        margin-right: 50%;
+        transform: translate(50%, 0);
+    }
+    .photo-and-name h2 {
+        font-size: 45px;
+    }
+    #myphoto {
+        width: 100%;   
+        padding: 0;
+    }
+    .photo-and-name h2 {
+        width: 100%;
+        padding: 0;
+    }
+    .project-pre {
+        width: 80%;
+        float: none;
+        margin-right: 0;
+        margin-left: 10%;
+    } .project-pre:last-child {
+        margin-right: 0;
+        margin-bottom: 0;
+        }
+    .project-row1 {
+        padding-bottom: 35px;
+    }
+}
+ 
+@media screen and (max-width: 560px) {
+    .name-header {
+        font-size: 65px;
+    }
+    .pod-header {
+        font-size: 25px;
+    }
+    .photo-and-name h2 {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .name-header {
+        padding-top: 50px;
+    }
+    .pad-top-soc {
+        width: 100%;
+        margin: auto;
+        margin-top: 15px;
+    }
+    .name-header {
+        font-size: 50px;
+    }
+    .pod-header {
+        font-size: 20px;
+    }
+    .photo-and-name h2 {
+        font-size: 25px;
+    }
+}
