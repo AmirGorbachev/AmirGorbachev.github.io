@@ -1,8 +1,17 @@
 /* Media queries */
 @media screen and (max-width: 1050px) {
+    .menu {
+        font-size: 20px;
+    }
+    .menu-nav {
+        padding: 5px 15px;
+        padding-bottom: 7px;
+    }
     .nav {
-        margin-top: 15px;
+        margin-top: 20px;
         width: 100%;
+        margin-right: 50%;
+        transform: translate(50%, 0);
     }
     .pad-top-soc {
         float: right;
@@ -10,7 +19,6 @@
     }
     .wrapper-left {
         width: 100%;
-
     }
     .wrapper-right {
     width: 100%;
@@ -68,8 +76,15 @@
     .project-row1 {
         padding-bottom: 35px;
     }
+    .project-list {
+        width: 100%;
+        margin-left: 0;
+    }
+    .wrapper-about {
+        width: 100%;
+    }
 }
- 
+
 @media screen and (max-width: 560px) {
     .name-header {
         font-size: 65px;
@@ -83,13 +98,18 @@
 }
 
 @media screen and (max-width: 480px) {
+    .nav {
+        margin-bottom: 25px;
+    }
     .name-header {
         padding-top: 50px;
     }
     .pad-top-soc {
-        width: 100%;
         margin: auto;
         margin-top: 15px;
+        width: 100%;
+        margin-right: 50%;
+        transform: translate(50%, 0);
     }
     .name-header {
         font-size: 50px;
@@ -100,4 +120,8 @@
     .photo-and-name h2 {
         font-size: 25px;
     }
+}
+
+@media screen and (max-width: 400px) {
+    
 }

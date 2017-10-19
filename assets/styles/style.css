@@ -21,6 +21,7 @@
 }
 
 body {
+	min-width: 400px;
 	background-color: white;
 	font-family: 'Comic Sans MS','Lora', 'Times New Roman', serif;
 }
@@ -164,7 +165,6 @@ footer {
 	height: 25px;
 	border-radius: 10%;
 	opacity: 1;
-	position: relative;
 }
 
 .social-top {
@@ -569,3 +569,4 @@ footer {
 	background: #F4F4F5;
 }
 /* !About */ 
+
