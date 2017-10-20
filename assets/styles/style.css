@@ -568,5 +568,11 @@ footer {
 .about-p-wrap {
 	background: #F4F4F5;
 }
+
+/**/
+.portfolio-main {
+	min-height: 110vh;
+}
+/**/
 /* !About */ 
 
