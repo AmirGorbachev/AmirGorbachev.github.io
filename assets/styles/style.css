@@ -23,11 +23,10 @@
 body {
 	min-width: 400px;
 	background-color: white;
-	font-family: 'Comic Sans MS','Lora', 'Times New Roman', serif;
+	font-family: 'Rubik', sans-serif;
 }
 
 h1,h2,h3,h4,h5,h6 {
-  	font-family: 'Comic Sans MS', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; 
   	padding: 0;
   	margin: 0;
 }
@@ -406,6 +405,21 @@ footer {
 	line-height: 1.6;
 }
 
+.contact-list h6 {
+	text-transform: uppercase;
+	font-size: 25px;
+	font-weight: 400;
+	padding-left: 15px;
+}
+
+.contact-list a {
+	color: #FF9800;
+	text-decoration: none;
+	border-bottom: 1px dashed #FF9800;
+} .contact-list a:hover {
+	border-bottom: 1px solid #FF9800;
+}
+
 .block-menu {
 	padding-top: 30px;
 	padding-bottom: 20px;
@@ -466,7 +480,6 @@ footer {
 /* About */ 
 
 .wrapper-about {
-	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	width: 80%;
 	margin: auto;
 	background: white;
@@ -490,7 +503,6 @@ footer {
 .header-list-about h2 {
 	padding: 15px;
 	font-weight: 400;
-	font-family: Helvetica, Arial, sans-serif;
 	font-size: 40px;
 	float: left;
 }
@@ -534,7 +546,6 @@ footer {
 	padding: 15px;
 }
 .wrapper-about h4 {
-	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	background: #545454;
 	padding: 15px;
 	color: white;
