@@ -58,6 +58,7 @@ menu {
 	color: black;
 	transition-duration: .2s;
 	font-size: 13px;
+	border-radius: 5px;
 }
 
 .ul-inline li {
@@ -84,13 +85,14 @@ menu {
 	transition-duration: .3s;
 	height: 20px;
 	padding-top: 4px;
+} .menu-nav:hover {
+	transform: translateY(1px);
+} .menu-nav:hover .menu {
+	background: #1A1A1A;
+	color: white;
 }
 
-.menu-nav:hover .menu {
-	color: white;
-	background: #1A1A1A;
-	border-radius: 5px;
-}
+
 
 .logo {
 	text-decoration: none;
@@ -409,7 +411,6 @@ footer {
 	text-transform: uppercase;
 	font-size: 25px;
 	font-weight: 400;
-	padding-left: 15px;
 }
 
 .contact-list a {
@@ -588,7 +589,7 @@ footer {
 
 /**/
 .portfolio-main {
-	min-height: 110vh;
+	min-height: 100vh;
 }
 /**/
 /* !About */ 
