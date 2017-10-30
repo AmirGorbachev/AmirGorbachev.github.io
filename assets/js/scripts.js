@@ -9,12 +9,12 @@ $(document).ready(function(){
 
 $(document).ready(function(){
 	sliderAnim();
-	setInterval(sliderAnim, 15000);
+	setInterval(sliderAnim, 30000);
 
 	function sliderAnim() {
-		setTimeout(slider1, 5000);
+		setTimeout(slider1, 10000);
 		setTimeout(slider2, 10000);
-		setTimeout(slider3, 15000);
+		setTimeout(slider3, 10000);
 	}
 
 	function slider1() {
