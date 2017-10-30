@@ -13,8 +13,8 @@ $(document).ready(function(){
 
 	function sliderAnim() {
 		setTimeout(slider1, 10000);
-		setTimeout(slider2, 10000);
-		setTimeout(slider3, 10000);
+		setTimeout(slider2, 20000);
+		setTimeout(slider3, 30000);
 	}
 
 	function slider1() {
