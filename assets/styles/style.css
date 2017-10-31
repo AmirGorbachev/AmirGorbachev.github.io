@@ -47,7 +47,9 @@ h1,h2,h3,h4,h5,h6 {
 	min-height: 500px;
 } .image-background-for-header1,
   .image-background-for-header2,
-  .image-background-for-header3 {
+  .image-background-for-header3,
+  .image-background-for-header4,
+  .image-background-for-header5 {
 	height: 100%;
 	width: 100%;
 	display: block;
@@ -56,14 +58,22 @@ h1,h2,h3,h4,h5,h6 {
 	background-size: cover;
 	}	.image-background-for-header1 {
 			display: none;
-			background: url(../images/home2.jpg) right no-repeat fixed;
+			background: url(../images/home1.jpg) right no-repeat fixed;
 		}
 		.image-background-for-header2 {
 			display: none;
-			background: url(../images/home1.jpg) right no-repeat fixed;
+			background: url(../images/home2.jpg) right no-repeat fixed;
 		}
 		.image-background-for-header3 {
-			background: url(../images/home.jpg) right no-repeat fixed;
+			display: none;
+			background: url(../images/home3.jpg) right no-repeat fixed;
+		}
+		.image-background-for-header4 {
+			display: none;
+			background: url(../images/home4.jpg) right no-repeat fixed;
+		}
+		.image-background-for-header5 {
+			background: url(../images/home5.jpg) right no-repeat fixed;
 		}
 
 .home {
@@ -534,6 +544,22 @@ footer {
 	float: right;
 }
 
+.wrapper-center {
+	width: 100%;
+}
+
+.wrapper-center h4 {
+	text-align: center;
+	border-radius: 10px;
+	margin: 0 15px;
+}
+
+.wrapper-center p {
+	margin: 0 30px;
+	padding: 25px;
+
+}
+
 .wrapper-left {
 	width: 60%;
 	float: left;
@@ -560,13 +586,11 @@ footer {
 	border-radius: 0 10px 10px 0;
 }
 
-.main-about {
-	padding: 15px;
-}
-
+.main-about,
 .aside-about {
 	padding: 15px;
 }
+
 .wrapper-about h4 {
 	background: #545454;
 	padding: 15px;
@@ -604,7 +628,8 @@ footer {
 }
 
 .header-list-about,
-.about-p-wrap {
+.about-p-wrap,
+.wrapper-center p {
 	background: #F4F4F5;
 }
 

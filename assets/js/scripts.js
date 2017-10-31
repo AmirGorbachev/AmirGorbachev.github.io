@@ -9,16 +9,18 @@ $(document).ready(function(){
 
 $(document).ready(function(){
 	sliderAnim();
-	setInterval(sliderAnim, 21000);
+	setInterval(sliderAnim, 35000);
 
 	function sliderAnim() {
 		setTimeout(slider1, 7000);
 		setTimeout(slider2, 14000);
 		setTimeout(slider3, 21000);
+		setTimeout(slider4, 28000)
+		setTimeout(slider5, 35000);
 	}
 
 	function slider1() {
-		$('.image-background-for-header3').fadeOut("normal");
+		$('.image-background-for-header5').fadeOut("normal");
 		$('.image-background-for-header1').fadeIn("normal");
 	}
 	function slider2() {
@@ -28,6 +30,14 @@ $(document).ready(function(){
 	function slider3() {
 		$('.image-background-for-header2').fadeOut("normal");
 		$('.image-background-for-header3').fadeIn("normal");
+	}
+	function slider4() {
+		$('.image-background-for-header3').fadeOut("normal");
+		$('.image-background-for-header4').fadeIn("normal");
+	}
+	function slider5() {
+		$('.image-background-for-header4').fadeOut("normal");
+		$('.image-background-for-header5').fadeIn("normal");
 	}
 });
 
