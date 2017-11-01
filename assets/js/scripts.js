@@ -8,15 +8,22 @@ $(document).ready(function(){
 	});
 
 $(document).ready(function(){
+	var numberOfImages = 5, // Количество изображений
+		displayTime = 7000, // Время отображения слайда
+		displayTimeOfAllItems; // Время отображения всех слайдов
+
+	displayTimeOfAllItems = numberOfImages * displayTime;
+
 	sliderAnim();
-	setInterval(sliderAnim, 35000);
+	setInterval(sliderAnim, displayTimeOfAllItems);
 
 	function sliderAnim() {
-		setTimeout(slider1, 7000);
-		setTimeout(slider2, 14000);
-		setTimeout(slider3, 21000);
-		setTimeout(slider4, 28000)
-		setTimeout(slider5, 35000);
+		var i = 1; // счётчик длины таймера
+		setTimeout(slider1, displayTime * i++);
+		setTimeout(slider2, displayTime * i++);
+		setTimeout(slider3, displayTime * i++);
+		setTimeout(slider4, displayTime * i++);
+		setTimeout(slider5, displayTime * i++);
 	}
 
 	function slider1() {
