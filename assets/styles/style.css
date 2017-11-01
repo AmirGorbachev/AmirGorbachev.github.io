@@ -55,25 +55,44 @@ h1,h2,h3,h4,h5,h6 {
 	display: block;
 	position: absolute;
 	z-index: -15;
-	background-size: cover;
 	}	.image-background-for-header1 {
 			display: none;
-			background: url(../images/home1.jpg) right no-repeat fixed;
+			background: url(../images/home1.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
 		}
 		.image-background-for-header2 {
 			display: none;
-			background: url(../images/home2.jpg) right no-repeat fixed;
+			background: url(../images/home2.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
 		}
 		.image-background-for-header3 {
 			display: none;
-			background: url(../images/home3.jpg) right no-repeat fixed;
+			background: url(../images/home3.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
 		}
 		.image-background-for-header4 {
 			display: none;
-			background: url(../images/home4.jpg) right no-repeat fixed;
+			background: url(../images/home4.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
 		}
 		.image-background-for-header5 {
-			background: url(../images/home5.jpg) right no-repeat fixed;
+			background: url(../images/home5.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
 		}
 
 .home {
