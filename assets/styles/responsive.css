@@ -12,6 +12,11 @@
         width: 100%;
         margin-right: 50%;
         transform: translate(50%, 0);
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .logo h5 {
+        font-size: 20px;
     }
     .pad-top-soc {
         float: right;
@@ -99,11 +104,18 @@
 
 @media screen and (max-width: 500px) {
     .pad-top-soc {
+        padding-left: 0;
+        padding-right: 0;
         margin: auto;
         margin-top: 15px;
         width: 100%;
         margin-right: 50%;
         transform: translate(50%, 0);
+    }
+    .logo {
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
     }
 }
 
