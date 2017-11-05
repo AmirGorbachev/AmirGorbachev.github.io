@@ -1,23 +1,23 @@
 $(document).ready(function(){
-	    $(".scrollScript").on("click","a", function (event) {
-	        event.preventDefault();
-	        var id  = $(this).attr('href'),
-	           	top = $(id).offset().top;
-	        $('body,html').animate({scrollTop: top}, 750);
-	    });
+	$(".scrollScript").on("click","a", function (event) {
+		event.preventDefault();
+		var id  = $(this).attr('href'),
+		top = $(id).offset().top;
+		$('body,html').animate({scrollTop: top}, 750);
 	});
+});
 
 $(document).ready(function(){
 	var numberOfImages = 5, // Количество изображений
 		displayTime = 7000, // Время отображения слайда
 		displayTimeOfAllItems; // Время отображения всех слайдов
 
-	displayTimeOfAllItems = numberOfImages * displayTime;
+		displayTimeOfAllItems = numberOfImages * displayTime;
 
-	sliderAnim();
-	setInterval(sliderAnim, displayTimeOfAllItems);
+		sliderAnim();
+		setInterval(sliderAnim, displayTimeOfAllItems);
 
-	function sliderAnim() {
+		function sliderAnim() {
 		var i = 1; // счётчик длины таймера
 		setTimeout(slider1, displayTime * i++);
 		setTimeout(slider2, displayTime * i++);

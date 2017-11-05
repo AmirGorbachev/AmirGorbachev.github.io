@@ -19,6 +19,9 @@
         float: right;
         margin-left: 0;
     }
+    .logo h5 {
+        font-size: 20px;
+    }
     .wrapper-left {
         width: 100%;
     }
@@ -108,6 +111,11 @@
         width: 100%;
         margin-right: 50%;
         transform: translate(50%, 0);
+    }
+    .logo {
+        padding-right: 0;
+        padding-left: 0;
+        width: 100%;
     }
 }
 
