@@ -324,7 +324,8 @@ footer {
 }
 
 .about-info,
-.project-info {
+.project-info,
+.blog-info {
 	text-align: center;
 	padding-top: 15px;
 	font-size: 20px;
@@ -422,18 +423,6 @@ footer {
 
 /* !Лист проектов */
 
-/* Фото-бар */
-	
-.photo-bar {
-	background: url(../images/photo-bar.jpg) no-repeat fixed;
-    height: 25vh;
-    width: 100%;
-    background-size: cover;
-    padding-top:40px;
-}
-
-/* !Фото-бар */
-
 .contacts-header {
 	color: #333;
 	padding-top: 35px;
@@ -488,10 +477,13 @@ footer {
 }
 
 .home-project {
-	background: url(../images/home.jpg) no-repeat fixed;
+	background: url(../images/home.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
     height: 100%;
     width: 100%;
-    background-size: cover;
     padding-top:40px;
 }
 
@@ -664,3 +656,54 @@ footer {
 /**/
 /* !About */ 
 
+/* Blog */
+
+.blog-bg {
+	background: url(../images/photo-bar.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    width: 100%;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.wrapper-blog-page {
+	background-color: #F4F4F5;
+	width: 80%;
+	margin: auto;
+	padding-bottom: 5px;
+}
+
+.blog-header {
+	color: #1A1A1A;
+	padding-top: 35px;
+	text-align: center;
+	font-size: 35px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.blog-info {
+	color: #333;
+	margin-bottom: 25px;
+}
+
+.wrapper-blog-post {
+	border: 1px solid #9D9D9D;
+	margin: 15px;	
+	padding: 15px;
+	background-color: white;
+} .wrapper-blog-post p:last-child {
+	padding-top: 5px;
+	font-size: 18px;
+} .wrapper-blog-post a {
+	text-decoration: none;
+	color: #333;
+} .wrapper-blog-post h3 {
+	color: black;
+	font-size: 25px;
+}
+
+/* !Blog */
