@@ -698,12 +698,19 @@ footer {
 } .wrapper-blog-post p:last-child {
 	padding-top: 5px;
 	font-size: 18px;
+	padding: 30px;
+	text-align: justify;
 } .wrapper-blog-post a {
 	text-decoration: none;
 	color: #333;
 } .wrapper-blog-post h3 {
 	color: black;
 	font-size: 25px;
+	padding: 5px 15px;
 }
 
+.blog-post-data {
+	border-bottom: 1px solid #9D9D9D;
+	padding: 10px 15px;
+}
 /* !Blog */

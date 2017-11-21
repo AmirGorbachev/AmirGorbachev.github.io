@@ -100,6 +100,14 @@
     .photo-and-name h2 {
         font-size: 35px;
     }
+    .wrapper-blog-post p:last-child {
+        text-align: left;
+        padding: 5px;
+        padding-top: 10px;
+    }
+    .wrapper-blog-page {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 500px) {
