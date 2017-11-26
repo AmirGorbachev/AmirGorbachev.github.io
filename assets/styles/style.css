@@ -314,7 +314,7 @@ footer {
 }
 
 .about-header {
-	padding-top: 35px;
+	padding-top: 55px;
 	color: #333;
 	text-align: center;
 	font-size: 35px;
@@ -325,9 +325,11 @@ footer {
 
 .about-info,
 .project-info,
-.blog-info {
+.blog-info,
+.contacts-info {
 	text-align: center;
 	padding-top: 15px;
+	padding-bottom: 25px;
 	font-size: 20px;
 }
 
@@ -345,13 +347,12 @@ footer {
 #contacts {
 	background-color: #F4F4F5;
 	width: 100%;
-	min-height: 550px;
-	padding-bottom: 25px;
+	padding-bottom: 75px;
 }
 
 .projects-header {
 	color: white;
-	padding-top: 35px;
+	padding-top: 55px;
 	text-align: center;
 	font-size: 35px;
 	font-weight: 600;
@@ -425,7 +426,7 @@ footer {
 
 .contacts-header {
 	color: #333;
-	padding-top: 35px;
+	padding-top: 55px;
 	text-align: center;
 	font-size: 35px;
 	position: static;
@@ -435,13 +436,9 @@ footer {
 
 .contacts-info {
 	color: #858585;
-	text-align: center;
-	padding-top: 15px;
-	font-size: 20px;
 }
 
 .contact-list {
-	padding-top: 25px;
 	width: 70%;
 	margin-right: 15%;
 	margin-left: 15%;
@@ -529,8 +526,7 @@ footer {
 	width: 80%;
 	margin: auto;
 	background: white;
-	padding-top: 15px;
-	margin-top: 15px;
+	padding-top: 5px;
 	border-radius: 10px;
 }
 
@@ -679,7 +675,7 @@ footer {
 
 .blog-header {
 	color: #1A1A1A;
-	padding-top: 35px;
+	padding-top: 55px;
 	text-align: center;
 	font-size: 35px;
 	font-weight: 600;
@@ -688,7 +684,6 @@ footer {
 
 .blog-info {
 	color: #333;
-	margin-bottom: 25px;
 }
 
 .wrapper-blog-post {
@@ -715,3 +710,6 @@ footer {
 	padding: 10px 15px;
 }
 /* !Blog */
+
+
+
