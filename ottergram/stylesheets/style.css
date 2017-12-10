@@ -121,11 +121,7 @@ a {
 
 /* Медиа */
 
-@media print {
-
-}
-
-@media all and (min-width: 1250px) {
+@media all and (orientation: landscape){
 	.main-content {
 		overflow: hidden;
 		flex-direction: row;
@@ -143,13 +139,7 @@ a {
 	}
 }
 
-@media screen and (orientation: landscape) {
-	.thumbnail-list {
-		flex-direction: column;
-	}
-}
-
-@media screen and (orientation: portrait) {
+@media all and (orientation: portrait) {
 	.main-content {
 		flex-direction: column;
 	}
@@ -157,4 +147,4 @@ a {
 		flex-direction: row;
 		order: 2;
 	}
-}*/
+}
