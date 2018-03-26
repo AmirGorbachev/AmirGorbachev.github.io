@@ -540,6 +540,7 @@ footer {
 	padding: 10px;
 	width: 100px;
 	float: left;
+	border-radius: 50%;
 }
 
 .header-list-about h2 {
