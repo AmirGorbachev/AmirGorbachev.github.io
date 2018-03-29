@@ -66,3 +66,8 @@ footer {
 .inline {
   display: inline;
 }
+
+#myphoto {
+  width: 100px;
+  border-radius: 50%;
+}

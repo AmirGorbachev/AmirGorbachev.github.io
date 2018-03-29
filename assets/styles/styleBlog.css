@@ -1,0 +1,36 @@
+body {
+  background-color: #FFF; 
+  height: 100%;
+  width: 100%;
+}
+
+header {
+  background: #F4F4F5;
+  text-align: center;
+  padding: 15px;
+}
+
+header ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+header ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+.wrapper-about p {
+  padding: 5px;
+}
+
+
+#myphoto {
+  text-align: center;
+  padding: 15px;
+}
+
+main{
+  height: 1000px;
+}
+
