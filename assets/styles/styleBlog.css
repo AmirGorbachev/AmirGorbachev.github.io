@@ -20,6 +20,9 @@ header ul li {
 header ul li a {
   color: black;
   text-decoration: none;
+  transition-duration: .2s
+} header ul li a:hover {
+  color: #FF9800;
 }
 
 .wrapper-about p {
@@ -28,6 +31,7 @@ header ul li a {
 
 header nav {
   margin: 35px 0 25px 0;
+  font-size: 20px;
 }
 
 #myphoto {
