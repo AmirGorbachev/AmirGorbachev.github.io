@@ -189,59 +189,50 @@ main {
 }	.social-top:hover {
 		color: white;
 	}
-	.YouTube:hover {
-		border: #FF0000 1px solid;
-		background: #FF0000;
-		box-shadow: 0 4px #b30000;
-	}
 
-		.YouTube:active{
-			transform: translateY(2px);
-			border: #FF0000 1px solid;
-			background: #FF0000;
-			box-shadow: 0 2px #b30000;
-		}
+.YouTube:hover {
+  border: #FF0000 1px solid;
+  background: #FF0000;
+  box-shadow: 0 4px #b30000;
+} .YouTube:active{
+    transform: translateY(2px);
+    border: #FF0000 1px solid;
+    background: #FF0000;
+    box-shadow: 0 2px #b30000;
+  }
 
-	.Vkontakte:hover {
-		border: #507299 1px solid;
-		background: #507299;
-		box-shadow: 0 4px #3e5775;
-	}
+.Vkontakte:hover {
+  border: #507299 1px solid;
+  background: #507299;
+  box-shadow: 0 4px #3e5775;
+} .Vkontakte:active{
+    border: #507299 1px solid;
+    background: #507299;
+    transform: translateY(2px);
+    box-shadow: 0 2px #3e5775;
+  }
 
-		.Vkontakte:active{
-			border: #507299 1px solid;
-			background: #507299;
-			transform: translateY(2px);
-			box-shadow: 0 2px #3e5775;
-		}
+.Facebook:hover {
+  border: #4267B2 1px solid;
+  background: #4267B2;
+  box-shadow: 0 4px #304c82;
+} .Facebook:active{
+    border: #4267B2 1px solid;
+    background: #4267B2;
+    transform: translateY(2px);
+    box-shadow: 0 2px #304c82;
+  }
 
-	.Facebook:hover {
-		border: #4267B2 1px solid;
-		background: #4267B2;
-		box-shadow: 0 4px #304c82;
-	}
-
-		.Facebook:active{
-			border: #4267B2 1px solid;
-			background: #4267B2;
-			transform: translateY(2px);
-			box-shadow: 0 2px #304c82;
-		}
-
-	.GitHub:hover {
-		border: #24292E 1px solid;
-		background: #24292E;
-		box-shadow: 0 4px #0b0d0e;
-	}
-
-		.GitHub:active{
-			border: #24292E 1px solid;
-			background: #24292E;
-			transform: translateY(2px);
-			box-shadow: 0 2px #0b0d0e;
-		}
-
-
+.GitHub:hover {
+  border: #24292E 1px solid;
+  background: #24292E;
+  box-shadow: 0 4px #0b0d0e;
+} .GitHub:active{
+    border: #24292E 1px solid;
+    background: #24292E;
+    transform: translateY(2px);
+    box-shadow: 0 2px #0b0d0e;
+  }	
 #about {
 	background-color: #F4F4F5;
 	width: 100%;
@@ -579,6 +570,8 @@ main {
 	background: #F4F4F5;
 }
 
+/* !About */ 
+
 /**/
 .portfolio-main {
 	min-height: 100vh;
@@ -586,4 +579,13 @@ main {
 	margin-bottom: 25px;
 }
 /**/
-/* !About */ 
+
+.bg-image {
+	width: 100%;
+	height: 250px;
+	background: url(../images/photo-bar.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}

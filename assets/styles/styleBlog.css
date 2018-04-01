@@ -12,13 +12,13 @@ header {
   padding: 15px;
 }
 
-header ul li {
+header nav ul li {
   display: inline;
   margin: 0 25px;
 }
 
-header ul li a {
-  color: black;
+header nav ul li a {
+  color: #545454;
   text-decoration: none;
   transition-duration: .2s
 } header ul li a:hover {
@@ -27,6 +27,7 @@ header ul li a {
 
 .wrapper-about p {
   padding: 5px;
+  color: #85858C;
 }
 
 header nav {
@@ -34,9 +35,10 @@ header nav {
   font-size: 20px;
 }
 
-#myphoto {
+#myphoto-blog {
   text-align: center;
   padding: 15px;
+  width: 150px;
 }
 
 /* main */
@@ -67,10 +69,17 @@ main{
   padding: 10px 15px;
 }
 
-
-/* Fix */
-footer a {
-  text-decoration: none;
-  color: white;
-  transition-duration: .2s;
+.widget-social {
+  text-align: center;
 }
+
+.widget-social li {
+  display: inline;
+}
+
+.social-top {
+  color: #85858C;
+  border: #F4F4F5 1px solid;
+  } .social-top:hover {
+    color: white;
+  }

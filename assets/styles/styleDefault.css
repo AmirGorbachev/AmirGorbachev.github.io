@@ -67,7 +67,67 @@ footer {
   display: inline;
 }
 
-#myphoto {
-  width: 100px;
+#myphoto,
+#myphoto-blog {
   border-radius: 50%;
 }
+
+
+
+.social {
+  text-decoration: none;
+  color: white;
+  padding: 7px;
+  transition-duration: .3s;
+  font-size: 25px;
+  text-align: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 10%;
+  opacity: 1;
+}
+
+.YouTube:hover {
+  border: #FF0000 1px solid;
+  background: #FF0000;
+  box-shadow: 0 4px #b30000;
+} .YouTube:active{
+    transform: translateY(2px);
+    border: #FF0000 1px solid;
+    background: #FF0000;
+    box-shadow: 0 2px #b30000;
+  }
+
+.Vkontakte:hover {
+  border: #507299 1px solid;
+  background: #507299;
+  box-shadow: 0 4px #3e5775;
+} .Vkontakte:active{
+    border: #507299 1px solid;
+    background: #507299;
+    transform: translateY(2px);
+    box-shadow: 0 2px #3e5775;
+  }
+
+.Facebook:hover {
+  border: #4267B2 1px solid;
+  background: #4267B2;
+  box-shadow: 0 4px #304c82;
+} .Facebook:active{
+    border: #4267B2 1px solid;
+    background: #4267B2;
+    transform: translateY(2px);
+    box-shadow: 0 2px #304c82;
+  }
+
+.GitHub:hover {
+  border: #24292E 1px solid;
+  background: #24292E;
+  box-shadow: 0 4px #0b0d0e;
+} .GitHub:active{
+    border: #24292E 1px solid;
+    background: #24292E;
+    transform: translateY(2px);
+    box-shadow: 0 2px #0b0d0e;
+  }
+
