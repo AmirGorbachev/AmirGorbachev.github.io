@@ -112,6 +112,25 @@
     .pad-top-soc {
         margin-right: 0;
     }
+    .wrapper-center h4,
+    .wrapper-center p,
+    .main-about p,
+    .about-p-wrap {
+        margin: 0;
+    }
+    .main-about,
+    .aside-about {
+        padding: 0;
+    } 
+    .wrapper-left h4,
+    .wrapper-right h4,
+    .wrapper-center h4 {
+        border-radius: 0;
+    }
+    .wrapper-left .about-p-wrap,
+    .wrapper-right .about-p-wrap {
+    margin: 0;
+}
 }
 
 @media screen and (max-width: 500px) {
