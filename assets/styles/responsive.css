@@ -146,6 +146,9 @@
         padding-left: 0;
         width: 100%;
     }
+    .home {
+        padding-top: 0;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -169,3 +172,5 @@
 @media screen and (max-width: 400px) {
     
 }
+
+
