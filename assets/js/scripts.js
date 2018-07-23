@@ -8,7 +8,7 @@
 		top = $(id).offset().top;
 		$('body,html').animate({scrollTop: top}, 750);
 	});
-}; 
+}
 
 // Функция для смены фона в шапке сайта (слайды)
 {
@@ -50,5 +50,5 @@
 		$('.image-background-for-header4').fadeOut("normal");
 		$('.image-background-for-header5').fadeIn("normal");
 	}
-};
+}
 
