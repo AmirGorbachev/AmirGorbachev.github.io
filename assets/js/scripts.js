@@ -1,16 +1,18 @@
+// "use strict"
+
 // Функция для скрола страницы к якорю
-$(document).ready(function(){
+{
 	$(".scrollScript").on("click","a", function (event) {
 		event.preventDefault();
-		var id  = $(this).attr('href'),
+		let id  = $(this).attr('href'),
 		top = $(id).offset().top;
 		$('body,html').animate({scrollTop: top}, 750);
 	});
-}); 
+}; 
 
 // Функция для смены фона в шапке сайта (слайды)
-$(document).ready(function(){
-	var numberOfImages = 5, // Количество изображений
+{
+	let numberOfImages = 5, // Количество изображений
 		displayTime = 7000, // Время отображения слайда
 		displayTimeOfAllItems = numberOfImages * displayTime; // Время отображения всех слайдов
 
@@ -18,7 +20,7 @@ $(document).ready(function(){
 		setInterval(sliderAnim, displayTimeOfAllItems);
 
 		function sliderAnim() {
-		var i = 1; // счётчик длины таймера
+		let i = 1; // счётчик длины таймера
 		setTimeout(slider1, displayTime * i++);
 		setTimeout(slider2, displayTime * i++);
 		setTimeout(slider3, displayTime * i++);
@@ -48,5 +50,5 @@ $(document).ready(function(){
 		$('.image-background-for-header4').fadeOut("normal");
 		$('.image-background-for-header5').fadeIn("normal");
 	}
-});
+};
 
