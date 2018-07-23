@@ -1,3 +1,4 @@
+// Функция для скрола страницы к якорю
 $(document).ready(function(){
 	$(".scrollScript").on("click","a", function (event) {
 		event.preventDefault();
@@ -5,14 +6,13 @@ $(document).ready(function(){
 		top = $(id).offset().top;
 		$('body,html').animate({scrollTop: top}, 750);
 	});
-});
+}); 
 
+// Функция для смены фона в шапке сайта (слайды)
 $(document).ready(function(){
 	var numberOfImages = 5, // Количество изображений
 		displayTime = 7000, // Время отображения слайда
-		displayTimeOfAllItems; // Время отображения всех слайдов
-
-		displayTimeOfAllItems = numberOfImages * displayTime;
+		displayTimeOfAllItems = numberOfImages * displayTime; // Время отображения всех слайдов
 
 		sliderAnim();
 		setInterval(sliderAnim, displayTimeOfAllItems);
@@ -25,6 +25,8 @@ $(document).ready(function(){
 		setTimeout(slider4, displayTime * i++);
 		setTimeout(slider5, displayTime * i++);
 	}
+
+	//Пролистываем изображения-фоны как слайды
 
 	function slider1() {
 		$('.image-background-for-header5').fadeOut("normal");
