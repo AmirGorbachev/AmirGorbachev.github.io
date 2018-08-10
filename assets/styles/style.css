@@ -2,7 +2,6 @@ body {
 	background-color: #333;
 }
 
-
 #toppage {
 	display: block;
 	position: relative;
@@ -264,7 +263,10 @@ main {
 .about-info a {
 	text-decoration: none;
 	color: #333;
-}
+} .about-info a:hover {
+	text-decoration: underline; 
+} 
+
 
 #projects {
 	background-color: #1A1A1A;
@@ -590,3 +592,12 @@ main {
         -o-background-size: cover;
         background-size: cover;
 }
+
+
+.about-p-wrap a {
+	text-decoration: none;
+	color: black;
+} .about-p-wrap a:hover {
+	text-decoration: underline; 
+} 
+
