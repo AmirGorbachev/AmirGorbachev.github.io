@@ -8,3 +8,4 @@ function talk () {
 function stop () {
   speechSynthesis.cancel();
 }
+
