@@ -10,11 +10,16 @@ h1,h2,h3,h4,h5,h6 {
     margin: 0;
 }
 
+a {
+	text-decoration: none;
+  	color: black;
+}
+
 body {
 	background-color: #334D5C;
     color: #EFC94C;
     font-family: 'Fira Sans', sans-serif;
-    font-size: 350%;
+    font-size: 250%;
     text-shadow: 2px 2px 5px #E27A3F;
 }
 
@@ -23,6 +28,7 @@ body {
 	padding: 25px;
 	text-align: center;
 	color: #45B29D;
+	width: 1500px;
 }
 
 .main_window {
@@ -31,11 +37,23 @@ body {
 
 .wrapper-main_window {
 	margin:0 auto;
-	padding: 15px;
-	padding-top: 25px;
-	width: 800px;
+	padding: 45px;
+	width: 1200px;
 	height: 500px;
 	background-color: #45B29D;
 	text-shadow: 2px 2px 5px #E27A3F;
     box-shadow: 2px 2px 5px 0px #E27A3F;
+} .wrapper-main_window p {
+	font-size: 60%;
+	text-align: justify;
+	text-indent: 30px;
+} .wrapper-main_window button {
+	background-color: #EFC94C;
+	border: 2px solid #DF5A49;
+    text-shadow: 2px 2px 5px #E27A3F;
+} .wrapper-main_window button a {
+	display: block;
+	padding: 10px; 
+	color: #DF5A49;
+    text-shadow: 2px 2px 5px #E27A3F;
 }
