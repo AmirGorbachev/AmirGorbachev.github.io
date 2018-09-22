@@ -29,6 +29,7 @@ body {
 	text-align: center;
 	color: #45B29D;
 	width: 1500px;
+	font-size: 60%;
 }
 
 .main_window {
@@ -51,6 +52,7 @@ body {
 	background-color: #EFC94C;
 	border: 2px solid #DF5A49;
     text-shadow: 2px 2px 5px #E27A3F;
+    margin-top: 20%; 
 } .wrapper-main_window button a {
 	display: block;
 	padding: 10px; 
