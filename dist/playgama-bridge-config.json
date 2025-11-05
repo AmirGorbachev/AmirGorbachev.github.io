@@ -1,0 +1,52 @@
+{
+  "gameId": "lego-builder-game",
+  "platforms": {
+    "yandex": {},
+    "crazy": {},
+    "poki": {},
+    "msn": {},
+    "facebook": {},
+    "telegram": {},
+    "discord": {}
+  },
+  "inGamePurchases": {
+    "coins_pack_small": {
+      "id": "coins_pack_small",
+      "name": "Small Coins Pack",
+      "price": 0.99,
+      "currency": "USD",
+      "description": "Get 100 coins to buy more LEGO sets!"
+    },
+    "coins_pack_medium": {
+      "id": "coins_pack_medium", 
+      "name": "Medium Coins Pack",
+      "price": 1.99,
+      "currency": "USD",
+      "description": "Get 250 coins to expand your collection!"
+    },
+    "coins_pack_large": {
+      "id": "coins_pack_large",
+      "name": "Large Coins Pack", 
+      "price": 4.99,
+      "currency": "USD",
+      "description": "Get 750 coins for the ultimate building experience!"
+    }
+  },
+  "achievements": {
+    "first_build": {
+      "id": "first_build",
+      "name": "First Builder",
+      "description": "Complete your first LEGO build"
+    },
+    "coin_collector": {
+      "id": "coin_collector", 
+      "name": "Coin Collector",
+      "description": "Collect 1000 coins"
+    },
+    "master_builder": {
+      "id": "master_builder",
+      "name": "Master Builder", 
+      "description": "Complete 10 different LEGO sets"
+    }
+  }
+}

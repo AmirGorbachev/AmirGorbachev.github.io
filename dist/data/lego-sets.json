@@ -1,0 +1,196 @@
+[
+  {
+    "id": "test-tower",
+    "name": "Test Tower",
+    "description": "A simple three-block tower with red, blue, and white bricks",
+    "price": 300,
+    "image": "/images/sets/tower.svg",
+    "pieces": 3,
+    "difficulty": "easy",
+    "reward": 50,
+    "boxTexture": "test-tower",
+    "boxDimensions": { "width": 2, "height": 4, "depth": 1 },
+    "platformSize": 20,
+    "blocks": [
+      {
+        "type": "brick-2x6",
+        "color": "red",
+        "position": {"x": 0.8, "y": 0.481, "z": 0.8},
+        "rotation": {"x": 0, "y": 0, "z": 0},
+        "order": 1
+      },
+      {
+        "type": "brick-2x6",
+        "color": "blue",
+        "position": {"x": 0.8, "y": 1.442, "z": 0.8},
+        "rotation": {"x": 0, "y": 0, "z": 0},
+        "order": 2
+      },
+      {
+        "type": "brick-2x6",
+        "color": "white",
+        "position": {"x": 0.8, "y": 2.403, "z": 0.8},
+        "rotation": {"x": 0, "y": 0, "z": 0},
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "rose-bush",
+    "name": "Rose Bush",
+    "description": "A beautiful rose bush with green leaves and red flowers",
+    "price": 450,
+    "image": "/images/sets/rose-bush.svg",
+    "pieces": 11,
+    "difficulty": "medium",
+    "reward": 75,
+    "boxTexture": "rose-bush",
+    "boxDimensions": { "width": 2, "height": 3, "depth": 2 },
+    "platformSize": 4,
+    "blocks": [
+      {
+        "type": "2x2",
+        "specialType": "cylinder-plate-2x2",
+        "blockType": "plate",
+        "width": 2,
+        "length": 2,
+        "blockHeight": 0.32,
+        "color": "brown",
+        "isGlass": false,
+        "position": {"x": 0, "y": 0.161, "z": 0},
+        "rotation": {"x": 0, "y": 0, "z": 0},
+        "order": 1
+      },
+      {
+        "type": "2x2",
+        "specialType": "cylinder-plate-2x2",
+        "blockType": "plate",
+        "width": 2,
+        "length": 2,
+        "blockHeight": 0.32,
+        "color": "brown",
+        "isGlass": false,
+        "position": {"x": 0, "y": 0.482, "z": 0},
+        "rotation": {"x": 0, "y": 0, "z": 0},
+        "order": 2
+      },
+      {
+        "type": "2x2",
+        "specialType": "cylinder-plate-2x2",
+        "blockType": "plate",
+        "width": 2,
+        "length": 2,
+        "blockHeight": 0.32,
+        "color": "brown",
+        "isGlass": false,
+        "position": {"x": 0, "y": 0.803, "z": 0},
+        "rotation": {"x": 0, "y": 0, "z": 0},
+        "order": 3
+      },
+      {
+        "type": "2x2",
+        "specialType": "cylinder-plate-2x2",
+        "blockType": "plate",
+        "width": 2,
+        "length": 2,
+        "blockHeight": 0.32,
+        "color": "green",
+        "isGlass": false,
+        "position": {"x": 0.8, "y": 1.124, "z": -0.8},
+        "rotation": {"x": 0, "y": 0, "z": 0},
+        "order": 4
+      },
+      {
+        "type": "2x2",
+        "specialType": "cylinder-plate-2x2",
+        "blockType": "plate",
+        "width": 2,
+        "length": 2,
+        "blockHeight": 0.32,
+        "color": "green",
+        "isGlass": false,
+        "position": {"x": -0.8, "y": 1.124, "z": 0.8},
+        "rotation": {"x": 0, "y": 0, "z": 0},
+        "order": 5
+      },
+      {
+        "type": "1x1",
+        "specialType": "cylinder-plate-1x1",
+        "blockType": "plate",
+        "width": 1,
+        "length": 1,
+        "blockHeight": 0.32,
+        "color": "green",
+        "isGlass": false,
+        "position": {"x": 0.4, "y": 1.124, "z": 0.39},
+        "rotation": {"x": 0, "y": 0, "z": 0},
+        "order": 6
+      },
+      {
+        "type": "1x1",
+        "specialType": "cylinder-plate-1x1",
+        "blockType": "plate",
+        "width": 1,
+        "length": 1,
+        "blockHeight": 0.32,
+        "color": "green",
+        "isGlass": false,
+        "position": {"x": -0.4, "y": 1.124, "z": -0.4},
+        "rotation": {"x": 0, "y": 0, "z": 0},
+        "order": 7
+      },
+      {
+        "type": "2x2",
+        "specialType": "cylinder-plate-2x2",
+        "blockType": "plate",
+        "width": 2,
+        "length": 2,
+        "blockHeight": 0.32,
+        "color": "green",
+        "isGlass": false,
+        "position": {"x": 0, "y": 1.445, "z": 0},
+        "rotation": {"x": 0, "y": 0, "z": 0},
+        "order": 8
+      },
+      {
+        "type": "1x1",
+        "specialType": "cylinder-plate-1x1",
+        "blockType": "plate",
+        "width": 1,
+        "length": 1,
+        "blockHeight": 0.32,
+        "color": "red",
+        "isGlass": false,
+        "position": {"x": 1.2, "y": 1.445, "z": -1.2},
+        "rotation": {"x": 0, "y": 0, "z": 0},
+        "order": 9
+      },
+      {
+        "type": "1x1",
+        "specialType": "cylinder-plate-1x1",
+        "blockType": "plate",
+        "width": 1,
+        "length": 1,
+        "blockHeight": 0.32,
+        "color": "red",
+        "isGlass": false,
+        "position": {"x": -0.4, "y": 1.766, "z": -0.4},
+        "rotation": {"x": 0, "y": 0, "z": 0},
+        "order": 10
+      },
+      {
+        "type": "1x1",
+        "specialType": "cylinder-plate-1x1",
+        "blockType": "plate",
+        "width": 1,
+        "length": 1,
+        "blockHeight": 0.32,
+        "color": "red",
+        "isGlass": false,
+        "position": {"x": -1.2, "y": 1.445, "z": 0.4},
+        "rotation": {"x": 0, "y": 0, "z": 0},
+        "order": 11
+      }
+    ]
+  }
+]
