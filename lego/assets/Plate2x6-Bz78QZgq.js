@@ -1,0 +1,1 @@
+import{B as a,P as c}from"./index-v21zqpYj.js";class r extends a{constructor(e="red",t=!1){super(2,6,e,t),this.blockHeight=c,this.blockType="plate"}static create(e="red",t=!1,s=!0){return new r(e,t).createBrick(s)}}export{r as Plate2x6};

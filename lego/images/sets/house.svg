@@ -1,0 +1,9 @@
+<svg width="200" height="150" viewBox="0 0 200 150" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="150" fill="#f0f0f0"/>
+  <rect x="20" y="80" width="160" height="70" fill="#ff6b6b"/>
+  <rect x="20" y="50" width="160" height="30" fill="#ffffff"/>
+  <rect x="40" y="60" width="40" height="20" fill="#4ecdc4"/>
+  <rect x="120" y="60" width="40" height="20" fill="#4ecdc4"/>
+  <polygon points="20,50 100,20 180,50" fill="#ff5252"/>
+  <text x="100" y="140" text-anchor="middle" font-family="Arial" font-size="14" fill="#333">Classic House</text>
+</svg>
