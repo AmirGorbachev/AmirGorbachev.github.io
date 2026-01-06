@@ -1,0 +1,1 @@
+import{B as s,a}from"./index-yuCUGPAf.js";class t extends s{constructor(e="red",r=!1){super(2,8,e,r),this.blockHeight=a,this.blockType="brick"}static create(e="red",r=!1,c=!0){return new t(e,r).createBrick(c)}}export{t as Brick2x8};
